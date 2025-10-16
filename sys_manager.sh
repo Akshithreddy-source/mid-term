@@ -40,7 +40,7 @@ else
     echo "Invalid mode! Use: ./sys_manager.sh add_users <usernames_file>"
     exit 1
 fi
-#!/bin/bash
+#system report#
 
 if [ "$1" == "sys_report" ]; then
     if [ -z "$2" ]; then
